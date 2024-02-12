@@ -1,9 +1,8 @@
-import './App.css';
-
+import NavBar from "./component/NavBar";
 function App() {
   return (
-    <div className="App">
-      <h1>my blog </h1>
+    <div className="container-fluid">
+      <NavBar />
     </div>
   );
 }

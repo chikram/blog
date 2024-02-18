@@ -7,13 +7,17 @@ function Home() {
         { title: "Welcome Party", author: "Saeed", id: 2 },
         { title: "Web dev top tips", author: "Ikram", id: 3 },
     ]);
+    const handleDelete = (id) => {
+        const newBlogs = blogs.filter(blog => blog.id !== id)
+        setBlogs(newBlogs)
+    }
+
     return (
         <>
             <div className="container mx-30">
                 <NavBar />
             </div>
-            <BlogList prob={blogs} title="All Blogs!" />
-            <BlogList prob={blogs.filter((blog) => blog.author === 'Ikram')} title="Ikram Blogs!" />
+            <BlogList prob={blogs} title="Ali Blogs!" handleDelete={handleDelete} />
         </>
     )
 }

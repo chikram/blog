@@ -1,0 +1,16 @@
+{
+    "blogs": [
+        {
+            "title": "My new website",
+            "body": "Hello i am ikram aslam and this is my new website.",
+            "author": "Ikram",
+            "id": 1
+        },
+        {
+            "title": "Welcome Party",
+            "body": "Hello i am ikram aslam and this is my new websites",
+            "author": "Saeed",
+            "id": 2
+        }
+    ]
+}

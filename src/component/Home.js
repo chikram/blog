@@ -11,11 +11,11 @@ function Home() {
         const newBlogs = blogs.filter(blog => blog.id !== id)
         setBlogs(newBlogs)
     }
-
     useEffect(() => {
         alert("use effect run")
 
-    })
+    }, [])
+    /* as we pass dependency empty array. So only when page render useeffect will run*/
 
     return (
         <>
@@ -23,7 +23,9 @@ function Home() {
                 <NavBar />
             </div>
             <BlogList prob={blogs} title="Ali Blogs!" handleDelete={handleDelete} />
+
         </>
+
     )
 }
 

@@ -8,14 +8,14 @@ function Home() {
             <div className="container mx-30">
                 <NavBar />
             </div>
-            <div className="py-5">
+            <div className="py-2">
                 {error && <div className=" text-center p-2 mb-1 bg-warning text-dark">{error}</div>}
                 {isPending && <div className="text-center">
                     <div className="spinner-border" role="status">
                         <span className="sr-only"></span>
                     </div>
                 </div>}
-                {blogs && <BlogList prob={blogs} title="Ali Blogs!" />}
+                {blogs && <BlogList prob={blogs} />}
             </div>
 
         </>

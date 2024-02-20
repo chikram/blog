@@ -1,5 +1,5 @@
 //prob and title both are probs 
-function BlogList({ prob, title, handleDelete }) {
+function BlogList({ prob, title }) {
     return (
         <>
             <div className="containe my-3">
@@ -9,7 +9,6 @@ function BlogList({ prob, title, handleDelete }) {
                         <div className="col-lg-4 col-sm-6 col-10 mx-auto thumbnail border border-buttom-1 border-top-0 border-start-0 border-end-0">
                             <h2 className="text-danger text-center">{blog.title}</h2>
                             <p className="text-center">{blog.title}</p>
-                            <button type="button" class="btn btn-danger" onClick={() => handleDelete(blog.id)}>Delete</button>
                         </div>
                     </div>
                 ))}

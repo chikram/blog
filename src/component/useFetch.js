@@ -23,7 +23,7 @@ const useFetch = (url) => {
                 })
         }, 500);
 
-    }, [])
+    }, [url])
     return { blogs, isPending, error };
 }
 

@@ -2,14 +2,14 @@
     "blogs": [
         {
             "title": "My new website",
-            "body": "Hello i am ikram aslam and this is my new website.",
+            "body": "Some quick example text to build on the card title and make up the bulk of the card's content..",
             "author": "Ikram",
             "id": 1,
-            "img": "r3.jpg"
+            "img": "https://s.yimg.com/ny/api/res/1.2/8k9YePZwVEQdLqmKcQTjeA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTcyMDtjZj13ZWJw/https://media.zenfs.com/en/the_independent_635/00177e8533e91c6afc25897664ee2405"
         },
         {
             "title": "Welcome Party",
-            "body": "Hello i am ikram aslam and this is my new websites",
+            "body": "Some quick example text to build on the card title and make up the bulk of the card's content.",
             "author": "Saeed",
             "id": 2,
             "img": "https://miro.medium.com/v2/resize:fit:720/format:webp/0*ShPUZvTVCt52vNbJ.jpg"

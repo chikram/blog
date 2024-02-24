@@ -1,18 +1,32 @@
 {
-    "blogs": [
-        {
-            "title": "My new website",
-            "body": "Some quick example text to build on the card title and make up the bulk of the card's content..",
-            "author": "Ikram",
-            "id": 1,
-            "img": "https://s.yimg.com/ny/api/res/1.2/8k9YePZwVEQdLqmKcQTjeA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTcyMDtjZj13ZWJw/https://media.zenfs.com/en/the_independent_635/00177e8533e91c6afc25897664ee2405"
-        },
-        {
-            "title": "Welcome Party",
-            "body": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-            "author": "Saeed",
-            "id": 2,
-            "img": "https://miro.medium.com/v2/resize:fit:720/format:webp/0*ShPUZvTVCt52vNbJ.jpg"
-        }
-    ]
+  "blogs": [
+    {
+      "title": "My new website",
+      "body": "Some quick example text to build on the card title and make up the bulk of the card's content..",
+      "author": "Ikram",
+      "id": "1",
+      "img": "https://s.yimg.com/ny/api/res/1.2/8k9YePZwVEQdLqmKcQTjeA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTcyMDtjZj13ZWJw/https://media.zenfs.com/en/the_independent_635/00177e8533e91c6afc25897664ee2405"
+    },
+    {
+      "title": "Welcome Party",
+      "body": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "author": "Saeed",
+      "id": "2",
+      "img": "https://miro.medium.com/v2/resize:fit:720/format:webp/0*ShPUZvTVCt52vNbJ.jpg"
+    },
+    {
+      "id": "41ec",
+      "title": "Welcome  to the Show",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo asperiores consequatur sapiente hic illum praesentium! Quae sint nemo officiis ut!",
+      "author": "Saeed",
+      "img": "https://vz.cnwimg.com/thumb-400x400/wp-content/uploads/2014/01/alex.jpg"
+    },
+    {
+      "id": "ce45",
+      "title": "Welcome  to the Show",
+      "body": "Alexandra Daddario. Actress: Baywatch. Alexandra Anna Daddario was born on March 16, 1986 in New York City, New York, to Christina, a lawyer, and Richard ...",
+      "author": "Ikram",
+      "img": "https://www.giantfreakinrobot.com/wp-content/uploads/2022/05/alexandra-daddario-percy-jackson-900x506.jpg"
+    }
+  ]
 }

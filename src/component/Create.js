@@ -4,6 +4,19 @@ const Create = () => {
     const [title, setTitle] = useState('')
     const [body, setBody] = useState('')
     const [author, setAuthor] = useState('Ikram')
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        const blog = { title, body, author };
+        fetch('http://localhost:8000/blogs', {
+            method: 'POST',
+            headers: { "Content-type": "application.json" },
+            body: JSON.stringify(blog),
+        }).then(() => {
+            alert("blog added")
+        })
+
+    }
     return (
         <>
             <div classNameName="container py-3">
@@ -37,7 +50,7 @@ const Create = () => {
                         </select>
                     </div>
                     <div class="col-md-12 text-center">
-                        <button type="button" class="btn btn-danger">
+                        <button type="button" class="btn btn-danger" onClick={handleSubmit}>
                             Add Blog
                         </button>
                     </div>

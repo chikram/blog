@@ -1,9 +1,20 @@
 import { useParams } from "react-router-dom";
 import useFetch from "./useFetch";
+import { useNavigate } from "react-router-dom";
 
 const BlogsDetails = () => {
     const { id } = useParams()
     const { blogs, error, isPending } = useFetch('http://localhost:8000/blogs/' + id);
+
+    const handleDelete = () => {
+        fetch('http://localhost:8000/blogs/' + blogs.id, {
+            method: 'DELETE'
+        }).then(() => {
+            navigate('/')
+        })
+    }
+
+    const navigate = useNavigate('')
     return (
         <div classNameName="container py-5">
             {error && <div classNameName=" text-center p-2 mb-1 bg-warning text-dark">{error}</div>}
@@ -19,6 +30,11 @@ const BlogsDetails = () => {
                     <p className="card-text">{blogs.body}</p>
                 </div>
             </div>)}
+            <div class="col-md-12 text-center">
+                <button type="button" class="btn btn-danger" onClick={handleDelete}>
+                    Delete
+                </button>
+            </div>
         </div>
     )
 }
